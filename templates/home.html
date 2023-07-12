@@ -27,7 +27,7 @@
     <style>
 
         body {
-            background-image: url("https://gogetsecure.com/wp-content/uploads/2022/02/Fraud-Detection-Machine-Learning.jpg");
+            background-image: url("https://o.remove.bg/uploads/e0679fd7-aab9-4115-923a-408b695d58cb/Mind_Map_Brainstorm_Whiteboard_in_Colorful_Style.png");
             background-repeat: no-repeat;
             background-size: cover;
             background-attachment: fixed;
@@ -57,7 +57,7 @@
 
             font-family: 'Poppins', sans-serif;
 
-            color: #ffffff;
+            color: #000000;
 
             letter-spacing: 0.5px;
 
@@ -95,7 +95,7 @@
 
         ::placeholder {
 
-            color: #e5e5e5;
+            color: #000000;
 
         }
 
@@ -109,7 +109,7 @@
 
     <div class="container-fluid">
 
-        <div class="row justify-content-end m-5 p-1">
+        <div class="row justify-content-left">
 
             <div class="co col-11 col-md-5 mt-4">
 
@@ -117,7 +117,7 @@
 
                     <div class="login mt-4">
 
-                        <h2 class="text-light">Financial Fraud Detection Using Artificial Neural Network</h2>
+                        <h2 class="text-dark">Financial Fraud Detection Using Artificial Neural Network</h2>
 
                         <form class="p-3" action="{{ url_for('predict')}}" method="post">
 
@@ -135,17 +135,17 @@
 
                             <input type="text" name="TRANSACTION_FRAUD" placeholder="TRANSACTION_FRAUD" required="required" /><br>
 
-                            <input type="text" name="day" placeholder="day"
+                            <input type="text" name="day" placeholder="DAY"
 
                                 required="required" /><br>
 
-                            <input type="text" name="hour" placeholder="hour" required="required" /><br>
+                            <input type="text" name="hour" placeholder="HOUR" required="required" /><br>
 
-                            <input type="text" name="minute" placeholder="minute"
+                            <input type="text" name="minute" placeholder="MINUTE"
 
                                 required="required" /><br>
 
-                            <input type="text" name="second" placeholder="second" required="required" /><br>
+                            <input type="text" name="second" placeholder="SECOND" required="required" /><br>
 
                             <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
 
